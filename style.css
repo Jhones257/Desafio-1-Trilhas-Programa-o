@@ -1,0 +1,416 @@
+.caixa{ /* Caixa para o cabeçalho*/
+    position: relative;
+    width: 1200px;
+    padding: 40px;
+}
+
+header{ /*degrade*/
+    background:linear-gradient(rgba(252, 190, 190, 0.932),white);
+}
+
+header h1{
+    font-family: 'Carattere', cursive;
+    font-size: 70px;
+    display: inline;
+}
+
+/*Estilisando a navegação do menu*/
+nav{
+    position: absolute;
+    top: 65px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/*Estilizando texto principal*/
+.principal li{
+    display: inline-block;
+}
+
+.principal{
+    padding: 20px;
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+.principal p{
+    margin: 0 0 1em;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.titulo-principal{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Carattere', cursive;
+    padding-bottom: 10px;
+}
+
+/*Estilizando imagens, mapas e videos da pagina principal*/
+.imagemslz{
+    width: 40%;
+    opacity: 0.3;
+    transition: 0.4s;
+    box-shadow: 10px 10px 30px 10px #000000;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagemslz:hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.mapa{
+    padding: 3em;
+    background: linear-gradient(white,rgb(131, 161, 189));
+}
+
+.mapa-conteudo{
+    padding: 3em;
+}
+
+.mapa p{
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.video{
+    background: rgb(131, 161, 189);
+    padding: 3em;
+}
+
+.video p{
+    margin: 1.5em;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/*Estilizando a pagina de cultura*/
+.titulo-reggae{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Carattere', cursive;
+    padding-bottom: 20px;
+}
+
+.imgreggae{
+    width: 40%;
+    opacity: 0.3;
+    transition: 0.4s;
+    box-shadow: 10px 10px 30px 10px #000000;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imgreggae:hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.reggae p{
+    margin: 0 0 1em;
+    font-size: 1.1em;
+    text-align: justify;
+    
+}
+
+.reggae{
+    margin: 30px;
+}
+
+.titulo-bumba{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Carattere', cursive;
+    padding-bottom: 20px;
+}
+
+.imgbumba{
+    width: 30%;
+    opacity: 0.3;
+    transition: 0.4s;
+    box-shadow: 10px 10px 30px 10px #000000;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imgbumba:hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.bumba p{
+    margin: 0 0 1em;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.bumba{
+    margin: 30px;
+}
+
+/*Estilizando a pagina de comidas tipicas*/
+.titulo-arrozdecuxa{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Carattere', cursive;
+    padding-bottom: 20px;
+}
+
+.imgarroz{
+    width: 30%;
+    opacity: 0.3;
+    transition: 0.4s;
+    box-shadow: 10px 10px 30px 10px #000000;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imgarroz:hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.arroz p{
+    margin: 0 0 1em;
+    font-size: 1.5em;
+    text-align: justify;
+    padding-bottom: 80px;
+}
+
+.arroz{
+    margin: 30px;
+    padding-bottom: 70px;
+}
+
+.titulo-sururu{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Carattere', cursive;
+    padding-bottom: 20px;
+}
+
+.imgsururu{
+    width: 30%;
+    opacity: 0.3;
+    transition: 0.4s;
+    box-shadow: 10px 10px 30px 10px #000000;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imgsururu:hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.sururu{
+    margin: 30px;
+    padding-bottom: 80px;
+}
+
+.sururu p{
+    margin: 0 0 1em;
+    font-size: 1.5em;
+    text-align: justify;
+    padding-bottom: 80px;
+
+}
+
+.titulo-jucara{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Carattere', cursive;
+    padding-bottom: 20px;
+}
+
+.imgjucara{
+    width: 30%;
+    opacity: 0.3;
+    transition: 0.4s;
+    box-shadow: 10px 10px 30px 10px #000000;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imgjucara:hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.jucara p{
+    margin: 0 0 1em;
+    font-size: 1.5em;
+    text-align: justify;
+    padding-bottom: 80px;
+}
+
+.jucara{
+    margin: 30px;
+    padding-bottom: 80px;
+}
+
+/*Estilizando a pagina de turismo*/
+.titulo-lencois{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Carattere', cursive;
+    padding-bottom: 20px;
+}
+
+.imglencois{
+    width: 30%;
+    opacity: 0.3;
+    transition: 0.4s;
+    box-shadow: 10px 10px 30px 10px #000000;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imglencois:hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.lencois p{
+    margin: 0 0 1em;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.lencois{
+    margin: 30px;
+    padding-bottom: 110px;
+}
+
+.titulo-slz{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Carattere', cursive;
+    padding-bottom: 20px;
+}
+
+.imgslz{
+    width: 30%;
+    opacity: 0.3;
+    transition: 0.4s;
+    box-shadow: 10px 10px 30px 10px #000000;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imgslz:hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.slz p{
+    margin: 0 0 1em;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.slz{
+    margin: 30px;
+    padding-bottom: 80px;
+}
+
+.titulo-delta{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Carattere', cursive;
+    padding-bottom: 20px;
+}
+
+.imgdelta{
+    width: 30%;
+    opacity: 0.3;
+    transition: 0.4s;
+    box-shadow: 10px 10px 30px 10px #000000;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imgdelta:hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.delta{
+    margin: 30px;
+    padding-bottom: 80px;
+}
+
+.delta p{
+    margin: 0 0 1em;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+/*Estilizando a pagina de contato*/
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin:0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0px;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+    
+}
+
+form{
+    padding: 40px;
+}
